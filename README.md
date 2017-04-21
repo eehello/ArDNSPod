@@ -22,6 +22,8 @@ arToken="12345,7676f344eaeaea9074c123451234512d"
 arDdnsCheck "test.org" "subdomain"
 ```
 '''''''''''''''''''''''''''''''''''''''''''''''
+http://www.right.com.cn/forum/thread-205883-1-1.html
+
 在DNSpod添加要更新域名的A记录。
 
 下载https://github.com/anrip/ArDNSPod脚本，放到路由上任意目录，本例为/root/dnspod。
@@ -71,11 +73,4 @@ sh /root/dnspod/ddnspod.sh >> /tmp/log/dnspod.log 2>&1 &
 - sed脚本POSIX化，可跨平台
 
 2016/3/23
-- 进一步POSIX化，支持Mac和大部分Linux发行版
-- 更改配置文件格式
-
-# Credit
-
-Original: anrip
-
-This version maintained by ProfFan
+- 进一步POSIX化，支持Mac和大部分Linux发行
